@@ -103,32 +103,32 @@ print(peso_kg)
 ~~~
 {: .output}
 
-We can display multiple things at once using only one `print` command:
+Também podemos mostrar o valor de várias variáveis de uma vez só usando apenas um único `print`:
 
 ~~~
-print(weight_kg_text, weight_kg)
+print(peso_kg_texto, peso_kg)
 ~~~
 {: .language-python}
 ~~~
-weight in kilograms: 60.0
+peso em kilogramas: 60.0
 ~~~
 {: .output}
 
-Moreover, we can do arithmetic with variables right inside the `print` function:
+Além disso, podemos fazer aritmética com variáveis dentro da função `print`:
 
 ~~~
-print('weight in pounds:', 2.2 * weight_kg)
+print('peso em libras:', 2.2 * peso_kg)
 ~~~
 {: .language-python}
 
 ~~~
-weight in pounds: 132.0
+peso em libras: 132.0
 ~~~
 {: .output}
 
-The above command, however, did not change the value of `weight_kg`:
+No entanto, a operação acima não mudou o valor de `peso_kg`:
 ~~~
-print(weight_kg)
+print(peso_kg)
 ~~~
 {: .language-python}
 
@@ -137,17 +137,17 @@ print(weight_kg)
 ~~~
 {: .output}
 
-To change the value of the `weight_kg` variable, we have to
-**assign** `weight_kg` a new value using the equals `=` sign:
+Para mudar o valor da variável `peso_kg`, precisamos
+**declarar** um novo valor para `peso_kg` usando o sinal de igual `=`:
 
 ~~~
-weight_kg = 65.0
-print('weight in kilograms is now:', weight_kg)
+peso_kg = 65.0
+print('agora o peso em kilogramas é:', peso_kg)
 ~~~
 {: .language-python}
 
 ~~~
-weight in kilograms is now: 65.0
+agora o peso em kilogramas é: 65.0
 ~~~
 {: .output}
 
