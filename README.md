@@ -1,66 +1,71 @@
-# Programming with Python
+# Programando com Python
+Esse repositório é uma tradução livre [do material oficial](https://github.com/swcarpentry/python-novice-inflammation).
+A tradução ainda está nos estágios iniciais e contribuições são bem-vindas.
 
 [![GitHub release][shields_release]][swc_py_releases]
 [![Create a Slack Account with us][create_slack_svg]][slack_heroku_invite]
 [![Slack Status][slack_channel_status]][slack_channel_url]
 
-An introduction to Python for non-programmers using inflammation data.
+Uma introdução ao Python para não-programadores usando dados de inflamação.
 
-## About the Lesson
+## Sobre a aula
 
-This lesson teaches novice programmers to write modular code to perform data analysis
-using Python. The emphasis, however, is on teaching language-agnostic principles of
-programming such as automation with loops and encapsulation with functions,
-see [Best Practices for Scientific Computing][best-practices] and
-[Good enough practices in scientific computing][good-practices] to learn more.
+Essa aula ensina programadores iniciantes a escrever código modular para executar análise
+de dados usando Python. A ênfase, no entanto, em ensinar princípios de programação independente
+de linguagem, como automação com loops e encapsulamento com funções, vide
+[Melhores práticas para computação científica][best-practices] e
+[Práticas suficientes em computação científica][good-practices] para ler mais.
 
-The example used in this lesson analyses a set of 12 files with simulated inflammation
-data collected from a trial for a new treatment for arthritis. Learners are shown
-how it is better to automate analysis using functions instead of repeating analysis
-steps manually.
+O exemplo usado nessa aula analisa um conjunto de 12 arquivos com dados simulatos de inflamação,
+coletados de um estudo de um novo tratamento para artrite. É demonstrada uma forma de melhorar a análise,
+automatizando-a com funções invés de repetir os passos da análise manualmente.
 
-The rendered version of the lesson is available at:
-<https://swcarpentry.github.io/python-novice-inflammation/>.
+\*\* O preview dessa tradução, antes da publicação, está disponível em [aqui.][index]
 
-This lesson is also available in [R][R] and [MATLAB][MATLAB].
+Essa aula também está disponível em [R][R] e [MATLAB][MATLAB] (somente em inglês).
 
-## Episodes
+## Episódios
 
-| # |  Episode | Time | Question(s) |
+| # |  Episódio | Tempo | Pergunta(s) |
 |--:|:---------|:----:|:------------|
-| 1 | [Python Fundamentals][episode01] | 30 | What basic data types can I work with in Python?<br>How can I create a new variable in Python?<br>Can I change the value associated with a variable after I create it? |
-| 2 | [Analyzing Patient Data][episode02] | 60 | How can I process tabular data files in Python? |
-| 3 | [Visualizing Tabular Data][episode03] | 50 | How can I visualize tabular data in Python?<br>How can I group several plots together? |
-| 4 | [Repeating Actions with Loops][episode04] | 30 | How can I do the same operations on many different values? |
-| 5 | [Storing Multiple Values in Lists][episode05] | 30 | How can I store many values together? |
-| 6 | [Analyzing Data from Multiple Files][episode06] | 20 | How can I do the same operations on many different files? |
-| 7 | [Making Choices][episode07] | 30 | How can my programs do different things based on data values? |
-| 8 | [Creating Functions][episode08] | 30 | How can I define new functions?<br>What’s the difference between defining and calling a function?<br>What happens when I call a function? |
-| 9 | [Errors and Exceptions][episode09] | 30 | How does Python report errors?<br>How can I handle errors in Python programs? |
-|10 | [Defensive Programming][episode10] | 30 | How can I make my programs more reliable? |
-|11 | [Debugging][episode11] | 30 | How can I debug my program? |
-|12 | [Command-Line Programs][episode12] | 30 | How can I write Python programs that will work like Unix command-line tools? |
+| 1 | [Fundamentos de Python][episode01] | 30 | O que são tipos básicos de dados no Python<br>Como posso criar uma nova variável em Python?<br>Consigo mudar o valor associado a uma variável depois de cria-la? |
+| 2 | [Analisando Dados de Pacientes][episode02] | 90 | How can I process tabular data files in Python? |
+| 3 | [Visualizando Dados Tabulares][episode03] | 90 | Como eu posso processar arquivos de dados tabulares em Python? |
+| 4 | [Repetindo Ações com Laços][episode04] | 30 | Como eu posso fazer as mesmas operações em muitos valores diferentes? |
+| 5 | [Armazenando Muitos Valores em Listas][episode05] | 30 | Como eu posso armazenar muitos valores juntos? |
+| 6 | [Analisando Dados em Muitos Arquivos][episode06] | 20 | Como eu posso fazer as mesmas operações em muitos arquivos diferentes? |
+| 7 | [Fazendo Escolhas][episode07] | 30 | Como meus programas podem fazer coisas diferentes baseados em valores de dados? |
+| 8 | [Criando Funções][episode08] | 30 | Como eu posso definir novas funções?<br>Qual é a diferença entre definir e chamar uma função?<br>O que acontece depois que eu chamo uma função? |
+| 9 | [Erros e Exceções][episode09] | 30 | Como o Python reporta erros?<br>Como eu posso lidar com erros em programas Python? |
+|10 | [Programação Defensiva][episode10] | 30 | Como eu posso tornar meus programas mais confiáveis? |
+|11 | [Debuggando][episode11] | 30 | Como eu posso debuggar meu programa? |
+|12 | [Programas de Linha de Comando][episode12] | 30 | Como eu posso contribuir para escrever programas Python que funcionem como linhas de comando Unix? |
 
 
-## Contributing
-[![Travis Build Status][travis_svg]][travis_url]
+## Contribuindo
 
-We welcome all contributions to improve the lesson!
-Maintainers will do their best to help you if you have any questions, concerns,
-or experience any difficulties along the way.
+Nós apreciamos todas as contribuições para melhorar a aula!
+Responsáveis farão seu melhor para ajudar se você tiver qualquer pergunta,
+preocupação, ou sentir alguma dificuldade com isso.
 
-We'd like to ask you to familiarize yourself with our [Contribution Guide](CONTRIBUTING.md)
-and have a look at the [more detailed guidelines][lesson-example] on proper formatting,
-ways to render the lesson locally, and even how to write new episodes!
+Gostaríamos que você se familiarizasse com nosso [Guia de Contribuição](CONTRIBUTING.md)
+e deem uma olhada nas [orientações mais detalhadas][lesson-example] para formatação adequada,
+formas de renderizar a aula localmente, e até como escrever novos episódios!
 
-## Maintainers
+**Nota do tradutor**: Essa é uma tradução livre do material original, porém as regras de contribuição
+são as mesmas.
 
-Lesson maintainers are [Trevor Bekolay][trevor_bekolay], [Maxim Belkin][maxim_belkin],
+## Responsáveis
+
+Responsáveis pela aula são [Trevor Bekolay][trevor_bekolay], [Maxim Belkin][maxim_belkin],
 [Anne Fouilloux][anne_fouilloux], [Lauren Ko][lauren_ko], [Valentina Staneva][valentina_staneva],
-and [creator][swc_history] of Software Carpentry: [Greg Wilson][greg_wilson].
+[Mike Trizna][mike_trizna], e o [criador][swc_history] of Software Carpentry:
+[Greg Wilson][greg_wilson]
 
-## Authors
-A list of contributors to the lesson can be found in [AUTHORS](AUTHORS).
+Responsável pela tradução para português é [Vini Salazar][vini_salazar].
+
+## Autores
+Uma lista de contribuidores para a aula pode ser encontrada em [AUTHORS](AUTHORS)
 
 ## License
 Instructional material from this lesson is made available under the
@@ -78,10 +83,10 @@ Software Carpentry is a volunteer project that teaches basic computing skills to
 
 ## About The Carpentries
 
-The Carpentries is a fiscally sponsored project of [Community Initiatives][community-initiatives],
-a registered 501(c)3 non-profit organisation based in California, USA. We are a global community
-teaching foundational computational and data science skills to researchers in academia,
-industry and government. More information can be found [here][cp-about].
+The Carpentries is a fiscally sponsored project of [Community Initiatives][community-initiatives], a
+registered 501(c)3 non-profit organisation based in California, USA. We are a global community
+teaching foundational computational and data science skills to researchers in academia, industry and
+government. More information can be found [here][cp-about].
 
 [lesson-example]: https://carpentries.github.io/lesson-example
 [anne_fouilloux]: https://github.com/annefou
@@ -91,6 +96,7 @@ industry and government. More information can be found [here][cp-about].
 [trevor_bekolay]: http://software-carpentry.org/team/#bekolay_trevor
 [valentina_staneva]: http://software-carpentry.org/team/#staneva_valentina
 [greg_wilson]: https://github.com/gvwilson
+[vini_salazar]: https://github.com/vinisalazar
 [swc_history]: https://software-carpentry.org/scf/history/
 [best-practices]: http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745
 [good-practices]: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510
@@ -104,21 +110,23 @@ industry and government. More information can be found [here][cp-about].
 [slack_channel_url]: https://swcarpentry.slack.com/messages/C9Y0L6MF0
 [travis_svg]: https://travis-ci.org/swcarpentry/python-novice-inflammation.svg?branch=gh-pages
 [travis_url]: https://travis-ci.org/swcarpentry/python-novice-inflammation
-[episode01]: https://swcarpentry.github.io/python-novice-inflammation/01-intro/index.html
-[episode02]: https://swcarpentry.github.io/python-novice-inflammation/02-numpy/index.html
-[episode03]: https://swcarpentry.github.io/python-novice-inflammation/03-matplotlib/index.html
-[episode04]: https://swcarpentry.github.io/python-novice-inflammation/04-loop/index.html
-[episode05]: https://swcarpentry.github.io/python-novice-inflammation/05-lists/index.html
-[episode06]: https://swcarpentry.github.io/python-novice-inflammation/06-files/index.html
-[episode07]: https://swcarpentry.github.io/python-novice-inflammation/07-cond/index.html
-[episode08]: https://swcarpentry.github.io/python-novice-inflammation/08-func/index.html
-[episode09]: https://swcarpentry.github.io/python-novice-inflammation/09-errors/index.html
-[episode10]: https://swcarpentry.github.io/python-novice-inflammation/10-defensive/index.html
-[episode11]: https://swcarpentry.github.io/python-novice-inflammation/11-debugging/index.html
-[episode12]: https://swcarpentry.github.io/python-novice-inflammation/12-cmdline/index.html
+[episode01]: https://vinisalazar.github.io/python-iniciante-inflamacao/01-intro/index.html
+[episode02]: https://vinisalazar.github.io/python-iniciante-inflamacao/02-numpy/index.html
+[episode03]: https://vinisalazar.github.io/python-iniciante-inflamacao/03-matplotlib/index.html
+[episode04]: https://vinisalazar.github.io/python-iniciante-inflamacao/04-loop/index.html
+[episode05]: https://vinisalazar.github.io/python-iniciante-inflamacao/05-lists/index.html
+[episode06]: https://vinisalazar.github.io/python-iniciante-inflamacao/06-files/index.html
+[episode07]: https://vinisalazar.github.io/python-iniciante-inflamacao/07-cond/index.html
+[episode08]: https://vinisalazar.github.io/python-iniciante-inflamacao/08-func/index.html
+[episode09]: https://vinisalazar.github.io/python-iniciante-inflamacao/09-errors/index.html
+[episode10]: https://vinisalazar.github.io/python-iniciante-inflamacao/10-defensive/index.html
+[episode11]: https://vinisalazar.github.io/python-iniciante-inflamacao/11-debugging/index.html
+[episode12]: https://vinisalazar.github.io/python-iniciante-inflamacao/12-cmdline/index.html
 [community-initiatives]: https://communityin.org
 [cp-about]: https://carpentries.org/about
 [swc-about]: https://software-carpentry.org/about/
 [mit-license]: https://opensource.org/licenses/mit-license.html
 [cc-by-human]: https://creativecommons.org/licenses/by/4.0/
 [cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode
+[index]: http://vinisalazar.github.io/python-iniciante-inflamacao/
+
