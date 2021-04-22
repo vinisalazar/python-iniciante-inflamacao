@@ -15,9 +15,9 @@ keypoints:
 - "Use `print(something)` to display the value of `something`."
 ---
 
-## Variables
+## Variáveis
+Qualquer interpretador Python pode ser usado como calculadora:
 
-Any Python interpreter can be used as a calculator:
 ~~~
 3 + 5 * 4
 ~~~
@@ -27,57 +27,55 @@ Any Python interpreter can be used as a calculator:
 ~~~
 {: .output}
 
-This is great but not very interesting.
-To do anything useful with data, we need to assign its value to a _variable_.
-In Python, we can [assign]({{ page.root }}/reference.html#assign) a value to a
-[variable]({{ page.root }}/reference.html#variable), using the equals sign `=`.
-For example, to assign value `60` to a variable `weight_kg`, we would execute:
+Isso é ótimo mas não é muito interessante.
+Para fazer qualquer coisa útil com dados, precisamos botar seu valor em uma _variável_.
+No Python, podemos [declarar]({{ page.root }}/reference/#assign)  um valor para uma
+[variável]({{ page.root }}/reference/#variable), usando os valores de igual `=`.
+Por exemplo, ao declarar o valor `60` para uma variável `peso_kg`, vamos executar:
 
 ~~~
-weight_kg = 60
+peso_kg = 60
 ~~~
 {: .language-python}
 
-From now on, whenever we use `weight_kg`, Python will substitute the value we assigned to
-it. In layman's terms, **a variable is a name for a value**.
+De agora em diante, sempre que usamos `peso_kg`, o Python vai substituir pelo valor declarado
+isso. Em essência, **uma variável é só um nome para um valor**.
 
-In Python, variable names:
+No Python, nomes de variáveis
 
- - can include letters, digits, and underscores
- - cannot start with a digit
- - are [case sensitive]({{ page.root }}/reference.html#case-sensitive).
+ - podem ter letras, dígitos e sublinhados.
+ - não podem começar com um dígito
+ - são [sensíveis a caixa]({{ page.root }}/reference/#case-sensitive).
 
-This means that, for example:
- - `weight0` is a valid variable name, whereas `0weight` is not
- - `weight` and `Weight` are different variables
+Isso significa, por exemplo:
+ - `peso0` é um nome válido de variável, onde `0peso` não é
+ - `peso` e `Peso` são variáveis diferentes
 
-## Types of data
-Python knows various types of data. Three common ones are:
+## Tipos de dados
+Python conhece vários tipos de dados. Três comuns são:
 
-* integer numbers
-* floating point numbers, and
+* números inteiros
+* números de ponto flutuante, e
 * strings.
 
-In the example above, variable `weight_kg` has an integer value of `60`.
-To create a variable with a floating point value, we can execute:
-
+No exemplo acima, a variável `peso_kg` tem o valor de um inteiro de `60`.
+Para criar uma variável com um número de ponto flutuante, podemos executar:
 ~~~
-weight_kg = 60.0
-~~~
-{: .language-python}
-
-And to create a string, we add single or double quotes around some text, for example:
-
-~~~
-weight_kg_text = 'weight in kilograms:'
+peso_kg = 60.0
 ~~~
 {: .language-python}
 
-## Using Variables in Python
-To display the value of a variable to the screen in Python, we can use the `print` function:
+E para criar uma string precisamos simplesmente adicionar aspas simples ou duplas à um texto, como:
+~~~
+peso_kg_texto = 'peso em kilogramas:'
+~~~
+{: .language-python}
+
+## Usando Variáveis no Python
+Para mostrar o valor de uma variável em uma tela no Python, podemos usar a função `print`:
 
 ~~~
-print(weight_kg)
+print(peso_kg)
 ~~~
 {: .language-python}
 
