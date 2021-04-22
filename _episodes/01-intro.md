@@ -10,9 +10,9 @@ objectives:
 - "Assign values to variables."
 keypoints:
 - "Basic data types in Python include integers, strings, and floating-point numbers."
-- "Use `variable = value` to assign a value to a variable in order to record it in memory."
-- "Variables are created on demand whenever a value is assigned to them."
-- "Use `print(something)` to display the value of `something`."
+- "Usar `variavel = valor` para declarar um valor à uma variável e gravá-lo em memória."
+- "Variáveis são criadas sob demanda sempre que um valor é declarado à elas."
+- "Use `print(algo)` para mostrar o valor de `algo`."
 ---
 
 ## Variáveis
