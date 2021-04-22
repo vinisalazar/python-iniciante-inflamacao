@@ -52,7 +52,7 @@ Gostaríamos que você se familiarizasse com nosso [Guia de Contribuição](CONT
 e deem uma olhada nas [orientações mais detalhadas][lesson-example] para formatação adequada,
 formas de renderizar a aula localmente, e até como escrever novos episódios!
 
-**Nota do tradutor**: Essa é uma tradução livre do material original, porém as regras de contribuição
+**Nota do tradutor**: Essa é uma tradução livre do maqterial original, porém as regras de contribuição
 são as mesmas.
 
 ## Responsáveis
@@ -63,6 +63,8 @@ Responsáveis pela aula são [Trevor Bekolay][trevor_bekolay], [Maxim Belkin][ma
 [Greg Wilson][greg_wilson]
 
 Responsável pela tradução para português é [Vini Salazar][vini_salazar].
+
+Commit atual da tradução: [908627a][translation-version].
 
 ## Autores
 Uma lista de contribuidores para a aula pode ser encontrada em [AUTHORS](AUTHORS)
@@ -129,4 +131,5 @@ government. More information can be found [here][cp-about].
 [cc-by-human]: https://creativecommons.org/licenses/by/4.0/
 [cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode
 [index]: http://vinisalazar.github.io/python-iniciante-inflamacao/
+[translation-version]: https://github.com/swcarpentry/python-novice-inflammation/commit/908627a8f41dbb64f04475a6cde3f99965a6f6c2
 
