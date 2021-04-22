@@ -1,25 +1,25 @@
 ---
-title: Analyzing Patient Data
+title: Analisando Dados de Pacientes
 teaching: 40
 exercises: 20
 questions:
-- "How can I process tabular data files in Python?"
+- "Como posso processar arquivos tabulares com Python?"
 objectives:
-- "Explain what a library is and what libraries are used for."
-- "Import a Python library and use the functions it contains."
-- "Read tabular data from a file into a program."
-- "Select individual values and subsections from data."
-- "Perform operations on arrays of data."
+- "Explicar o que é uma biblioteca e para o que são usadas."
+- "Importar uma biblioteca Python e usar as funções que ela contém."
+- "Ler dados tabulares de um arquivo em um programa."
+- "Selecionar valores individuais e subseções de dados."
+- "Executar operações em arranjos de dados."
 keypoints:
-- "Import a library into a program using `import libraryname`."
-- "Use the `numpy` library to work with arrays in Python."
-- "The expression `array.shape` gives the shape of an array."
-- "Use `array[x, y]` to select a single element from a 2D array."
-- "Array indices start at 0, not 1."
-- "Use `low:high` to specify a `slice` that includes the indices from `low` to `high-1`."
-- "Use `# some kind of explanation` to add comments to programs."
-- "Use `numpy.mean(array)`, `numpy.max(array)`, and `numpy.min(array)` to calculate simple statistics."
-- "Use `numpy.mean(array, axis=0)` or `numpy.mean(array, axis=1)` to calculate statistics across the specified axis."
+- "Importar a biblioteca em um programa usando `import biblioteca`."
+- "Usar a biblioteca `numpy` para trabalhar com arranjos em Python."
+- "A expressão `array.shape` retorna o formato de um arranjo."
+- "Use `array[x, y]` para selecionar um único elemento em um arranjo 2D."
+- "Índices de arranjo começam no 0, e não 1."
+- "Use `baixo:alto` para especificar uma `fatia` que inclui os índices de `baixo` até `alto-1`."
+- "Use `# algum tipo de explicação` para adicionar comentários a programas.."
+- "Use `numpy.mean(array)`, `numpy.max(array)`, e `numpy.min(array)` para calcular estatísticas simples."
+- "Use `numpy.mean(array, axis=0)` ou `numpy.mean(array, axis=1)` para calcular estatísticas entre os eixos especificados."
 ---
 
 Words are useful, but what's more useful are the sentences and stories we build with them.
